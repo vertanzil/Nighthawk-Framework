@@ -1,0 +1,14 @@
+{
+  "name": "vertanzil/NightHawk-Framework",
+  "authors": [
+    {
+      "name": "Vertanzil",
+      "email": "41233671+Vertanzil@users.noreply.github.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "./"
+    }
+  }
+}

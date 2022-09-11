@@ -1,0 +1,9 @@
+RewriteEngine off
+DirectoryIndex index.php?url=Index
+RewriteCond %{QUERY_STRING} [^a-z](declare¦char¦set¦cast¦convert¦delete¦drop¦exec¦insert¦meta¦script¦select¦truncate¦update)[^a-z] [NC]
+
+<Files "config.json">
+  Require all denied
+</Files>
+
+RewriteRule .*\.(json|php|css|jpg|jpge|png|css|js)$ - [F,NC,L]

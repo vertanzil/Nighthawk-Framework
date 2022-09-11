@@ -1,0 +1,15 @@
+{
+  "Database": {
+    "host": "",
+    "username": "",
+    "password": "",
+    "database_name": "",
+    "table_name": ""
+  },
+  "Account": {
+    "recovery_email": ""
+  },
+  "Settings": {
+    "debug_mode": "1"
+  }
+}
